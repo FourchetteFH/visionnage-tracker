@@ -44,6 +44,13 @@ function Home() {
                 <div>Content to Animate</div>
             </AnimatedContent>
 
+            <button
+                onClick={() => navigate('/bacASable')}
+                className="fixed bottom-6 right-6 bg-purple-500 hover:bg-purple-400 text-white font-bold px-4 py-3 rounded-full shadow-lg transition-all hover:scale-105"
+            >
+                🎮
+            </button>
+
         </>
     )
 }
